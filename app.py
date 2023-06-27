@@ -23,9 +23,9 @@ prompt = content + "\nGiven the above, generate an itinerary for a visitor."
 
 # Use the OpenAI API
 response = openai.ChatCompletion.create(
-  model="gpt-3.5-turbo",
+  model="gpt-4",
   messages=[
-        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "system", "content": "You are a helpful assistant. Today is 6/26/23. Generate an itinerary foe 6/31/23. Speak like geoffrey chaucer."},
         {"role": "user", "content": prompt},
     ]
 )
