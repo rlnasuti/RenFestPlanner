@@ -7,8 +7,8 @@ To run:
 1. create a file in the root of this repo called `.env`
 1. populate required fields in .env
 ```
-OPENAI_API_KEY="<your openai api key"
-PDF_FILE_PATH="location of Renaissance Faire program pdf on your computer"
+OPENAI_API_KEY="your_openai_api_key"
+PDF_FILE_PATH="location of Renaissance Faire program pdf on your computer" e.g. "/User/You/Downloads/program.pdf"
 ```
 
 Example run:
